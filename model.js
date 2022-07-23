@@ -20,7 +20,7 @@ const UserSchema = new mongoose.Schema({
   phoneNo:{
     type : Number,
     default : 89359494904
-  }
+  },
 });
 
 const User = mongoose.model("User", UserSchema);
